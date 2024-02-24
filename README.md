@@ -8,7 +8,7 @@
 3. Add a new app registration, Account type "Single tenant", e.g. named "DatabricksEntraIdApp".
 4. Select "Manage > Certificates & secrets".
 5. Add new client secret to the app.
-6. Copy and temporarily store the secret value. It will be disabled only right after the creation of the client secret.
+6. Copy and temporarily store the secret value. It will be displayed only right after the creation of the client secret.
 7. Get "Application (client) ID" and "Directory (tenant) Id" of the app. See Overview.
 8. Create an Azure Key Vault.
 9. Add role "Key Vault Administrator" to your user.
